@@ -28,4 +28,9 @@ python -m django --version
 
 ### Make Migrations
 ###### set 'polls' to your app name
+###### By running makemigrations, you’re telling Django that you’ve made some changes to your models (in this case, you’ve made new ones) and that you’d like the changes to be stored as a migration.
 ``` python manage.py makemigrations polls```
+
+### Sql Migrate
+###### set 'polls' to your app name
+``` python manage.py sqlmigrate polls 0001 ```
