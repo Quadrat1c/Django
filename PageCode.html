@@ -1,0 +1,10 @@
+<html>
+  <!-- For loops -->
+  {% for i in context %}
+    {{i.ContextIterationName}}
+  {% endfor %}
+  
+  <!-- Display a quick variable from a context object -->
+  {context.0} <!-- Shows Index [0] within object -->
+  {context.1} <!-- Index [1] etc -->
+</html>
