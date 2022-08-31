@@ -1,7 +1,9 @@
 <html>
   <!-- For loops -->
   {% for i in context %}
-    {{i.ContextIterationName}}
+    {{i.contextColumnName}}
+    <!-- OR Index -->
+    {{i.1}}
   {% endfor %}
   
   <!-- Display a quick variable from a context object -->
