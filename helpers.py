@@ -37,7 +37,7 @@ import pyodbc
 server = '192.168.1.2'
 database = 'SequelDB'
 username = 'root'
-password = 'k8dD,c21@e3zs'
+password = 'mySecretPassword'
 
 def GetAll(query):
   # ODBC Driver 17 is most common for SQL, check your ODBC Connection drivers you have installed
