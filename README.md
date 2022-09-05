@@ -48,3 +48,13 @@ python manage.py makemigrations polls
 ```
 python manage.py sqlmigrate polls 0001
 ```
+
+### Deployment Stuffs
+###### deployment check
+```
+python manage.py check --deploy
+```
+###### lets do it live
+```
+python manage.py runserver 0:8000 --insecure
+```
